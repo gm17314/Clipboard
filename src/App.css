@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Roboto+Slab:wght@500&display=swap');
+
+html {
+    font-size: 10px;
+    background-color: #2c6d877d;
+}
+
+@media screen and (min-width: 620px) and (max-width:900px) {
+  html {
+      font-size: 5.3px;
+  }
+}
+
+/* For small laptop screens */
+@media screen and (min-width: 901px) and (max-width:1024px) {
+  html {
+      font-size: 6.5px;
+  }
+}
+
+/* For medium laptop screens */
+@media screen and (min-width: 1025px) and (max-width:1280px) {
+  html {
+      font-size: 7.5px;
+  }
+}
+
+/* For Mobile medium and large screen */
+@media screen and (max-width: 620px) {
+  html {
+      font-size: 4.5px;
+  }
+}
+
+/* For small screen mobile */
+@media screen and (max-width: 340px) {
+  html {
+      font-size: 3.7px;
+  }
+}
+
+/* For Jio phone */
+@media screen and (min-width: 100px) and (max-width:339px) {
+  html {
+      font-size: 2px;
+  }
+}
